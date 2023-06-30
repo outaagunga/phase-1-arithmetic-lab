@@ -24,7 +24,7 @@ describe('index.js', function() {
   });
   describe('max', function() {
     it("will return 20 as the highest number in the set", function() {
-      expect(max).to.eq(20)
+      expect(max()).to.eq(20)
     });
   });
 });
